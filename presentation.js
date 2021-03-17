@@ -1330,6 +1330,7 @@ function deepDivePresentation() {
             email: "aleino@nvidia.com",
         },
         occasion: "WebGL meetup, 17 March 2021",
+        slidesURL: "https://github.com/aleino-nv/driver-bug-deep-dive-presentation",
         frontPageImage: imageNode(webGLLogoFileName, "width: 1000; padding: 100px;"),
         slideCount: slides.length,
         slide: (index) => slides[index-1],

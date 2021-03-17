@@ -330,7 +330,7 @@ function initializePresentation(parameters) {
 
         const details = document.createElement('table');
         details.setAttribute("class", "front-page");
-        details.innerHTML = `<tr><td><b>Event:</b></td><td>${parameters.occasion}</td></tr><tr><td><b>Title:</b></td><td>${parameters.title}</td></tr><tr><td><b>Duration:</b></td><td>${Math.floor(totalDuration/60)}:${("00" + (totalDuration % 60)).slice(-2)}</td></tr><tr><td><b>Speaker:</b></td><td>${parameters.author.name}</td></tr>`;
+        details.innerHTML = `<tr><td><b>Event:</b></td><td>${parameters.occasion}</td></tr><tr><td><b>Title:</b></td><td>${parameters.title}</td></tr><tr><td><b>Speaker:</b></td><td>${parameters.author.name}</td></tr><tr><td><b>Duration:</b></td><td>${Math.floor(totalDuration/60)}:${("00" + (totalDuration % 60)).slice(-2)}</td></tr><tr><td><b>Slides:</b></td><td><a href="${parameters.slidesURL}">${parameters.slidesURL}</a></td></tr>`;
 
         element.appendChild(parameters.frontPageImage);
         element.appendChild(details);
