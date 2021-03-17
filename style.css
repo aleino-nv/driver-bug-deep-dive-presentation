@@ -1,0 +1,89 @@
+#header {
+    background-color: #c0c0c0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.front-page {
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+}
+
+#slide {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+
+#header-title {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#author-container {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#author {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.diagram {
+    background-color: white;
+    font-size: 4px;
+}
+
+.footnotes {
+    font-size: 30px;
+    position:fixed;
+    bottom:0;
+    margin:0;
+    padding:0;
+}
+
+.code {
+    font-size: 30px;
+    font-family: monospace;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.codeBlock {
+    display: inline-block;
+}
+
+.old-item {
+    color:888888;
+    list-style-type:square;
+}
+
+.navigation-item {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    vertical-align: middle;
+    display: inline-block;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+body {
+    background-color: white;
+}
